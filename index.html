@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>JainMedi</title>
+</head>
+
+<body>
+    <!-- Header Area -->
+    <!-- Navbar for Desktop -->
+    <header class="w-full bg-white py-4 shadow-md fixed top-0 z-50">
+        <nav class="container flex justify-between items-center">
+            <div>
+                <img src="./assets/Logo.png" alt="logo" class="cursor-pointer">
+            </div>
+            <ul class="hidden lg:flex md:gap-5">
+                <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Home</a></li>
+                <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">About</a></li>
+                <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Department</a>
+                </li>
+                <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Doctor</a></li>
+                <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Pages</a></li>
+                <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">News</a></li>
+                <li><a href="#" class="transition-all duration-200 pb-7 hover:border-b-4 border-green">Contact</a></li>
+            </ul>
+            <div class="flex gap-5">
+                <button class="hidden md:block btn-primary transition-all hover:bg-opacity-90">Make An
+                    Appoinment</button>
+                <img src="./assets/hamburger.svg" alt="hamburger menu" class="w-7 lg:hidden cursor-pointer"
+                    id="hamburger-icon">
+                <img src="./assets/cross.svg" alt="cross menu" class="w-7 hidden lg:hidden cursor-pointer"
+                    id="cross-icon">
+            </div>
+        </nav>
+
+        <!-- Navbar for Mobile -->
+        <div id="mobile-nav"
+            class="container -translate-x-full transition-all duration-500 px-4 md:px-10 py-5 w-3/4 h-screen bg-white fixed top-0 flex flex-col float-start gap-10 lg:hidden">
+            <div>
+                <img src="./assets/Logo.png" alt="logo" class="cursor-pointer">
+            </div>
+            <ul class="flex flex-col gap-5">
+                <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Home</a></li>
+                <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">About</a></li>
+                <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Department</a></li>
+                <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Doctor</a></li>
+                <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Pages</a></li>
+                <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">News</a></li>
+                <li><a href="#" class="transition-all duration-200 hover:border-b-4 border-green">Contact</a></li>
+            </ul>
+            <div>
+                <button class="md:hidden btn-primary transition-all hover:bg-opacity-90">Make An Appoinment</button>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Javascript File -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
