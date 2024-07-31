@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-6xl leading-[68px] font-bold;
+    }
+
+    h2 {
+        @apply text-[40px] leading-[54px] font-bold;
+    }
+
+    h3 {
+        @apply text-[26px] leading-9 font-bold;
+    }
+
+    h4 {
+        @apply text-xl leading-[30px] font-bold;
+    }
+
+    h5 {
+        @apply text-[17px] leading-6 font-normal;
+    }
+
+    p {
+        @apply text-lg leading-8 font-normal;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply py-3 px-5 bg-green text-white rounded-md;
+    }
+}
