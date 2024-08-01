@@ -4,27 +4,27 @@
 
 @layer base {
     h1 {
-        @apply text-6xl leading-[68px] font-bold;
+        @apply text-2xl font-bold;
     }
 
     h2 {
-        @apply text-[40px] leading-[54px] font-bold;
+        @apply text-[22px] font-bold;
     }
 
     h3 {
-        @apply text-[26px] leading-9 font-bold;
+        @apply text-xl font-bold;
     }
 
     h4 {
-        @apply text-xl leading-[30px] font-bold;
+        @apply text-[18px] font-bold;
     }
 
     h5 {
-        @apply text-[17px] leading-6 font-normal;
+        @apply text-[17px] font-bold;
     }
 
     p {
-        @apply text-lg leading-8 font-normal;
+        @apply text-[16px] font-normal;
     }
 }
 
