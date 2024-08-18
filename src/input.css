@@ -4,7 +4,7 @@
 
 @layer base {
     h1 {
-        @apply text-3xl lg:text-[40px] xl:text-[60px] lg:leading-[54px] xl:leading-[68px] font-bold;
+        @apply text-4xl lg:text-[40px] xl:text-[60px] lg:leading-[54px] xl:leading-[68px] font-bold;
     }
 
     h2 {
