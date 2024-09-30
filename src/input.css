@@ -2,36 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    h1 {
-        @apply text-4xl lg:text-[40px] xl:text-[60px] lg:leading-[54px] xl:leading-[68px] font-bold;
-    }
-
-    h2 {
-        @apply text-[26px] leading-[40px] xl:text-[40px] xl:leading-[54px] font-bold;
-    }
-
-    h3 {
-        @apply text-[20px] leading-[30px] xl:text-[26px] xl:leading-[36px] font-bold;
-    }
-
-    h4 {
-        @apply text-[17px] leading-6 xl:text-[20px] xl:leading-[30px] font-bold;
-    }
-
-    h5 {
-        @apply text-base xl:text-[17px] xl:leading-6;
-    }
-
-    h6 {
-        @apply text-[14px] leading-6;
-    }
-
-    p {
-        @apply text-lg leading-8 font-normal;
-    }
-}
-
 @layer components {
     .btn-primary {
         @apply py-3 px-5 bg-green text-white rounded-md;
